@@ -11,9 +11,6 @@ This is my personal portfolio built with React and Vite. It showcases my project
 - [Available Scripts](#available-scripts)
 - [Routing](#routing)
 - [Deployment](#deployment)
-- [Folder Structure](#folder-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
