@@ -1,6 +1,6 @@
 // src/App.jsx
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Home from "./pages/Home";
@@ -22,7 +22,7 @@ function App() {
   useSmoothScroll();
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Header />
       <Routes>
@@ -32,7 +32,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
