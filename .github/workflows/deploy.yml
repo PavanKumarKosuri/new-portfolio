@@ -35,6 +35,7 @@ jobs:
       - name: Prepare deployment artifact
         run: |
           rm -rf deploy-dist
+          mkdir deploy-dist
           cp -r dist/* deploy-dist
 
       - name: Upload artifact
