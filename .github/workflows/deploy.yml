@@ -31,8 +31,9 @@ jobs:
       - name: Build project
         run: npm run build
 
+      # Use the updated artifact action here
       - name: Upload artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: dist
@@ -41,5 +42,6 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v2
+      -  name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
