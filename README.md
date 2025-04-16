@@ -118,3 +118,4 @@ npm run deploy
 Then, go to your GitHub repository’s Settings → Pages and set the source to the gh-pages branch.
 
 Feel free to fork this repository and make improvements. Pull requests are welcome.
+Contact me for any enquires
