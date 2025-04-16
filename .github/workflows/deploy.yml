@@ -38,7 +38,7 @@ jobs:
         run: |
           rm -rf deploy-dist
           mkdir deploy-dist
-          cp -r dist/* deploy-dist/
+          rsync -a --no-links dist/ deploy-dist/
 
       - name: List deployment artifact
         run: ls -la deploy-dist
