@@ -38,7 +38,10 @@ jobs:
         run: |
           rm -rf deploy-dist
           mkdir deploy-dist
-          tar -cf - -C dist . | tar -xf - -C deploy-dist
+          cp -r dist/* deploy-dist/
+
+      - name: List deployment artifact
+        run: ls -la deploy-dist
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
