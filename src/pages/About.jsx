@@ -20,7 +20,7 @@ const About = () => {
               About
             </h2>
             <p className="attention-getter" data-animate-el>
-              Full-Stack Developer with nearly 4 years of experience building
+              Full-Stack Developer with 4 years of experience building
               secure, scalable web applications in React.js and Node.js. Adept
               at using AI-powered coding tools to rapidly prototype solutions,
               ensure clean code, and maintain best practices...
@@ -83,6 +83,7 @@ const About = () => {
               <h3>Integrations & Security</h3>
               <ul>
                 <li>Razorpay Integration</li>
+                <li>HuggingFace AI Integration</li>
                 <li>API Integration</li>
                 <li>OWASP Top 10</li>
               </ul>
@@ -91,6 +92,9 @@ const About = () => {
               <h3>Tools & Version Control</h3>
               <ul>
                 <li>Git/GitHub</li>
+                <li>Postman</li>
+                <li>Figma</li>
+                <li>VS Code</li>
               </ul>
             </div>
           </div>

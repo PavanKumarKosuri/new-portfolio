@@ -1,5 +1,5 @@
 # Pavan Portfolio
-chuddam
+
 This is my personal portfolio built with React and Vite. It showcases my projects, skills, and professional background.
 
 ## Table of Contents

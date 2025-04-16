@@ -18,10 +18,10 @@ const Header = () => {
         <nav className="column lg-12 main-nav">
           <ul>
             <li>
-              <a href="/intro">Pavan.</a>
+              <Link to="/">Pavan.</Link>
             </li>
             <li>
-              <a href="/intro">Intro</a>
+              <Link to="/">Intro.</Link>
             </li>
             <li>
               <Link to="/about">About</Link>

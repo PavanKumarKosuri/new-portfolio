@@ -6,6 +6,7 @@ import hr from "../assets/images/portfolio/hr.png";
 import phlebo from "../assets/images/portfolio/phlebo.jpg";
 import manager from "../assets/images/portfolio/managerDashboard.jpg";
 import vendor from "../assets/images/portfolio/vendor.jpg";
+import llm from "../assets/images/portfolio/llm.png";
 
 // Modal component to display project details and login info
 const ProjectModal = ({ project, onClose }) => {
@@ -98,6 +99,12 @@ const Works = () => {
       link: "https://ahcvendor.vercel.app/#/",
       loginType: "credentials",
       credentials: { username: "vendor", password: "vendor123" },
+    },
+    {
+      id: 7,
+      title: "llm-qa-app-huggingface",
+      image: llm,
+      link: "https://github.com/PavanKumarKosuri/llm-qa-app-huggingface",
     },
   ];
 
