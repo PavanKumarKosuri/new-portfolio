@@ -31,14 +31,13 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # Use the updated artifact action here
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
           name: github-pages
           path: dist
 
-   deploy:
+  deploy:
     needs: build
     runs-on: ubuntu-latest
     steps:
